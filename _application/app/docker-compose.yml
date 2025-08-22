@@ -1,0 +1,11 @@
+services:
+  database:
+    container_name: oc_project-h_db
+    image: mysql:8
+    environment:
+      MYSQL_DATABASE: livrai
+      MYSQL_ROOT_PASSWORD: password
+    ports:
+      - "3306:3306"
+
+

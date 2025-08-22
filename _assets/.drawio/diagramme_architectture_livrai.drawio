@@ -1,0 +1,89 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.6">
+  <diagram name="Page-1" id="f_n8Dm0exHE49HLv6vou">
+    <mxGraphModel dx="1936" dy="1626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WV76SE3d1nZJ2TlXRwIU-1" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="70" width="1200" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="WV76SE3d1nZJ2TlXRwIU-24" value="Serveur distant" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
+          <mxGeometry x="130" y="120" width="890" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="WV76SE3d1nZJ2TlXRwIU-3" value="Serveur Tomcat 8.5" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="200" y="200" width="490" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="WV76SE3d1nZJ2TlXRwIU-23" value="Application Java 1.6" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="210" y="270" width="470" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="WV76SE3d1nZJ2TlXRwIU-2" value="Données" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="890" y="585" width="100" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="WV76SE3d1nZJ2TlXRwIU-4" value="Utilisateur de l&#39;application" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="285" width="50" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="WV76SE3d1nZJ2TlXRwIU-5" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="190" y="350" as="sourcePoint" />
+            <mxPoint x="50" y="349.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WV76SE3d1nZJ2TlXRwIU-6" value="Requêtes HTTP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WV76SE3d1nZJ2TlXRwIU-5">
+          <mxGeometry x="-0.108" relative="1" as="geometry">
+            <mxPoint x="-7" y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WV76SE3d1nZJ2TlXRwIU-7" value="Servlets" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="320" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WV76SE3d1nZJ2TlXRwIU-8" value="Couche DAO" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="620" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WV76SE3d1nZJ2TlXRwIU-9" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="860" y="650" as="sourcePoint" />
+            <mxPoint x="700" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WV76SE3d1nZJ2TlXRwIU-10" value="Requêtes SQL" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WV76SE3d1nZJ2TlXRwIU-9">
+          <mxGeometry x="-0.108" relative="1" as="geometry">
+            <mxPoint x="-9" y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WV76SE3d1nZJ2TlXRwIU-11" value="Entités en RAM" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="470" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WV76SE3d1nZJ2TlXRwIU-14" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="610" as="sourcePoint" />
+            <mxPoint x="500" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WV76SE3d1nZJ2TlXRwIU-15" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="540" as="sourcePoint" />
+            <mxPoint x="390" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WV76SE3d1nZJ2TlXRwIU-16" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="460" as="sourcePoint" />
+            <mxPoint x="500" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WV76SE3d1nZJ2TlXRwIU-17" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="390" as="sourcePoint" />
+            <mxPoint x="390" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WV76SE3d1nZJ2TlXRwIU-18" value="Conversion" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="570" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WV76SE3d1nZJ2TlXRwIU-22" value="Manipule" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="410" width="70" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
